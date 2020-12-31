@@ -40,7 +40,6 @@ function multiply(a, b) { //eslint-disable-line
     ];
 
     return returnArray;
-
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -61,6 +60,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
+<< problem4
     var summation = a + b + c;
     var multiplicaion = a * b * c;
     var returnArray = [summation,
@@ -69,6 +69,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
         "The product of 4 and 7 and 5 is 140."
     ]
     return returnArray;
+
 
 }
 
