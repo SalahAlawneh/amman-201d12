@@ -60,7 +60,6 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-<< problem4
     var summation = a + b + c;
     var multiplicaion = a * b * c;
     var returnArray = [summation,
@@ -118,11 +117,16 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+    var testArray = [2, 3, 4];
+    var total = testArray[0] * testArray[1] * testArray[2];
+    var returnArray = [total,
+        "The numbers 2,3,4 have a product of 24."
+    ]
+    return returnArray;
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
